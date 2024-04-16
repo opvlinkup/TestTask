@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace TestTask.Services.Implementations
 {
-    public class OrderService : IOrderService
+    public class OrderService : IOrderService, IApiMarker
     {
         private readonly ApplicationDbContext _context;
     

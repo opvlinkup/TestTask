@@ -6,7 +6,7 @@ using TestTask.Services.Interfaces;
 
 namespace TestTask.Services.Implementations
 {
-    public class UserService : IUserService
+    public class UserService : IUserService, IApiMarker
     {
         private readonly ApplicationDbContext _context;
 
@@ -14,7 +14,6 @@ namespace TestTask.Services.Implementations
         {
             _context = context;
         }
-
 
         public async Task<User> GetUser()
         {
