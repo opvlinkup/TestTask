@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "TestTask.Controllers.OrdersController",
+    "Method": "Get",
+    "RelativePath": "api/v1/orders/selected-order",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestTask.Controllers.OrdersController",
+    "Method": "GetOrders",
+    "RelativePath": "api/v1/orders/selected-orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestTask.Controllers.UsersController",
+    "Method": "Get",
+    "RelativePath": "api/v1/users/selected-user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestTask.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/v1/users/selected-users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
